@@ -1,0 +1,146 @@
+body {
+	font-size: 13px;
+	width: auto;
+	margin: 0px auto;
+}
+
+.main{
+    margin-left: 25%;
+    margin-right: 20%;
+}
+
+.menu_top {
+	background: #8a75bb;
+	height: 45px;
+}
+
+.menu_top ul {
+	margin: 0px;
+    padding: 0px;
+}
+
+.menu_top ul li {
+	list-style: none;
+	float: left;
+}
+
+
+.menu_top ul li a {
+	text-decoration: none;
+	display: block;
+	height: 45px;
+	line-height: 45px;
+	color: #FFF;
+	padding: 0px 20px 0px 20px;
+	border-right: 1px solid #ccc;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: silver;
+}
+
+.main {
+	background: white;
+	float: left;
+    display: block;
+}
+
+.menu_top ul li a {
+	text-decoration: none;
+	display: block;
+	height: 45px;
+	line-height: 45px;
+	color: #FFF;
+	padding: 0px 20px 0px 20px;
+	border-right: 1px solid #ccc;
+}
+
+.Image img {
+	width: 250px;
+	margin-left: -20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-decoration: none;
+}
+
+img :hover{
+	box-shadow: 6px 18px 10px #888888;
+}
+
+#category{
+	border: 2px solid pink;
+	display: block;
+	float: left;
+	width: 294px;
+	height: 410px;
+	border-radius: 10px;
+    font-weight: 700;
+    margin-top: 7px;
+	margin-left: 7px;
+	font-size: 15px;
+}
+
+
+.main ul li{
+	list-style:none;
+}
+#category .product{
+	clear: left;
+	float: left;
+}
+
+.Price {
+	display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+    border: 1px solid #e01d37;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px 10px;
+    margin: 0 0 5px 0;
+}
+
+.ProductName {
+	padding-top:5px;
+	padding-left: 0px;
+    text-decoration: none;
+
+}
+.product{
+    list-style-type: none;
+}
+
+.main ul li a {
+    margin-bottom: 3px;
+}
+
+
+#text{
+    width: 300px;
+	border-radius: 0px;
+	outline: none;
+    padding:11px;
+}
+
+#footer {
+	background: black;
+	width: auto;
+	text-align: center;
+	height: 60px;
+	clear: left;
+	color: white;
+    line-height: 60px;
+	font-size: 15px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+#footer img {
+	width: 40px;
+	float: right;
+	margin-top: 5px;
+	margin-right: 40px;
+}

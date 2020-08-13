@@ -1,0 +1,55 @@
+.menu{
+    background-image: url("https://vtv1.mediacdn.vn/thumb_w/650/2019/6/19/lede-15609585113571677251457.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+html {
+    height: 100%;
+}
+.menu {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.container{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.menu_top{
+    width: 600px;
+    display: inline-block;
+    border: 1px solid #D6D6D6;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 180px;
+    margin-left: 650px;
+    background-color:  rgb(177, 221, 223);
+    color: black;
+}
+
+
+#submit{
+	padding: 10px;
+	border-radius: 20px;
+	background-color: #42F10C;
+	border:1px solid #42F10C;
+	margin-top: 20px;
+	margin-left:10px;
+	outline: none;
+}
+
+#text{
+    width: 500px;
+	border-radius: 30px;
+	outline: none;
+    padding:15px;
+    margin-bottom: 5px;
+}
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="insert.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Insert Product</title>
+</head>
+<body>
+    <div class = "menu">
+    <div class="menu_top" > 
+	    <h1 align="center">Add Product</h1> 
+    <form action="/doInsert" method="POST" >
+        <tr>
+            <td><label>Name</label></td>
+            <td><label id="lblPriceError" style="color: red;">{{model.nameError}}</label></td>
+            <td><input id="text" type="text" name="txtName" id=""></td>
+        </tr>
+
+        <tr>
+            <td><label>Image</label></td>
+            <td><input id="text" type="text" name="txtImage" id=""></td>        
+        </tr>
+
+        <tr>
+            <td><label >Price</label></td>
+            <td><label id="lblPriceError" style="color: red;">{{model.errorMsg}}</label></td>
+            <td><input id="text" type="text" name="txtPrice" id=""></td>
+          
+        </tr>
+
+        <tr>
+            <td><label>Status</label></td>
+            <td><input id="text" type="text" name="txtStatus" id=""></td>
+        </tr>
+        <td colspan="2">
+            <button id="submit" type="submit" name="submit">Add Product</button>
+            <a href="/" style="margin-left: 80px;">Shop Toys</a>
+        </td>
+ 
+    </div>
+
+    </form> 
+    </div>
+    </div>                     
+</body>
+</html>
