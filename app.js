@@ -78,7 +78,6 @@ app.post("/doSearch", async (req, res) => {
   var inputStatus = req.body.txtStatus;
   let client = await MongoClient.connect(url);
   let dbo = client.db("ProductDB");
-  //let search = /name_search$/;
   let result = await dbo
     .collection("ProductDB")
     .find({
